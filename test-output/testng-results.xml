@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="132" started-at="2018-05-20T12:07:30Z" finished-at="2018-05-20T12:07:30Z">
+  <suite name="Default suite" duration-ms="4914" started-at="2018-05-22T08:32:24Z" finished-at="2018-05-22T08:32:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="132" started-at="2018-05-20T12:07:30Z" finished-at="2018-05-20T12:07:30Z">
+    <test name="Default test" duration-ms="4914" started-at="2018-05-22T08:32:24Z" finished-at="2018-05-22T08:32:28Z">
       <class name="Execute.Demo">
-        <test-method status="PASS" signature="Sub()[pri:0, instance:Execute.Demo@6d00a15d]" name="Sub" duration-ms="68" started-at="2018-05-20T05:07:30Z" finished-at="2018-05-20T05:07:30Z">
+        <test-method status="PASS" signature="Sum()[pri:0, instance:Execute.Demo@51565ec2]" name="Sum" duration-ms="17" started-at="2018-05-22T01:32:24Z" finished-at="2018-05-22T01:32:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Sub -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:Execute.Demo@6d00a15d]" name="sum" duration-ms="3" started-at="2018-05-20T05:07:30Z" finished-at="2018-05-20T05:07:30Z">
+        </test-method> <!-- Sum -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:Execute.Demo@51565ec2]" name="afterclass" is-config="true" duration-ms="4857" started-at="2018-05-22T01:32:24Z" finished-at="2018-05-22T01:32:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sum -->
+        </test-method> <!-- afterclass -->
       </class> <!-- Execute.Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

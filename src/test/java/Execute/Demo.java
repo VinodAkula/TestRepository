@@ -1,12 +1,15 @@
 package Execute;
 
+import org.apache.commons.mail.EmailException;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 
 public class Demo {
 
 	
+
 	@Test	
 	public void Sum()
 	{
@@ -15,16 +18,10 @@ public class Demo {
 		int b=20;
 		Assert.assertEquals(30, b+a);
 	}
-	@Test
-	public void Sub()
-	{
-		System.out.println("Sub");
-		int a = 10;
-		int b=20;
-		Assert.assertEquals(10, b-a);
+	@AfterClass
+	public void afterclass() throws EmailException {
+		SendEmailJava.sendemail();
 	}
-	
-	
 	
 	
 }
